@@ -4,6 +4,8 @@ This project are examples for the article _Transactions - A Spring Approach_. Ja
 
 To see the results, run the application. The log will show the behavior of each transaction. SpringData was configured with `ddl-auto = create`. Therefore, you should only have installed your database. If you have another database, change the property values `spring.jpa.database` and `spring.datasource.*` for your database.
 
+Enjoy and share!
+
 Article's Link: 
 
 My LinkedIn profile: https://www.linkedin.com/in/thiago-leite-e-carvalho-1b337b127/
