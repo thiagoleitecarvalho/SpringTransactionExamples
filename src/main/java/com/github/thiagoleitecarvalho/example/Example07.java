@@ -38,7 +38,7 @@ public class Example07 {
     public void execute() {
 
         LOGGER.info("---------------------");
-        LOGGER.info("Example 7 started");
+        LOGGER.info("Example 7 started -> Propagation.SUPPORTS");
 
         executeWithoutTransaction();
         executeWithTransaction();

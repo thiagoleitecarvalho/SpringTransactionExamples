@@ -42,7 +42,7 @@ public class Example10 {
     public void execute() {
 
         LOGGER.info("---------------------");
-        LOGGER.info("Example 10 started");
+        LOGGER.info("Example 10 started -> Isolation.REPEATABLE_READ");
 
         try {
 

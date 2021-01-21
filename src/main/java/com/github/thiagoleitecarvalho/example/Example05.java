@@ -44,7 +44,7 @@ public class Example05 {
         Student student2 = EntityUtils.createStudent();
 
         LOGGER.info("---------------------");
-        LOGGER.info("Example 5 started");
+        LOGGER.info("Example 5 started -> Propagation.NOT_SUPPORTED");
 
         try {
 

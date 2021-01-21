@@ -43,7 +43,7 @@ public class Example09 {
         Student student = EntityUtils.createStudent();
 
         LOGGER.info("---------------------");
-        LOGGER.info("Example 9 started");
+        LOGGER.info("Example 9 started -> Isolation.READ_UNCOMMITED");
 
         LOGGER.info("Saving the student ".concat(student.toString()));
         this.studentService.save(student);

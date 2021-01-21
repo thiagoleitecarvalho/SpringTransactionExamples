@@ -49,7 +49,7 @@ public class Example12 {
     public void execute() {
 
         LOGGER.info("---------------------");
-        LOGGER.info("Example 12 started");
+        LOGGER.info("Example 12 started -> Propagation.REQUIRES_NEW and Isolation.READ_UNCOMMITED");
 
         this.student = new Student();
         this.student.setName("Fake");

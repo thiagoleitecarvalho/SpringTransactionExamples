@@ -61,7 +61,7 @@ public class Example01 {
         try {
 
             LOGGER.info("---------------------");
-            LOGGER.info("Example 1 started");
+            LOGGER.info("Example 1 started-> Default values: Propagation.REQUIRED and Isolation.DEFAULT");
 
             LOGGER.info("Saving the student ".concat(this.student.toString()));
             this.studentService.save(this.student);

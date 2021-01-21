@@ -47,7 +47,7 @@ public class Example08 {
         this.student = EntityUtils.createStudent();
 
         LOGGER.info("---------------------");
-        LOGGER.info("Example 8 started");
+        LOGGER.info("Example 8 started -> Isolation.READ_COMMITED");
 
         LOGGER.info("Saving the student ".concat(this.student.toString()));
         this.studentService.save(this.student);

@@ -37,7 +37,7 @@ public class Example04 {
         try {
 
             LOGGER.info("---------------------");
-            LOGGER.info("Example 4 started");
+            LOGGER.info("Example 4 started -> Propagation.NEVER");
 
             LOGGER.info("Trying save a student.");
             Student student = EntityUtils.createStudent();

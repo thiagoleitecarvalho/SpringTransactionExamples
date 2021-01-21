@@ -17,7 +17,7 @@ import com.github.thiagoleitecarvalho.service.StudentService;
 import com.github.thiagoleitecarvalho.util.EntityUtils;
 
 /**
- * Business class for the Example6. Creating a transaction with Propagation.REQUIRES_NEW
+ * Business class for the Example6. Creating a transaction with Propagation.REQUIRES_NEW.
  * @author Thiago Leite e Carvalho
  * @see My linkedIn profile: https://www.linkedin.com/in/thiago-leite-e-carvalho-1b337b127/
  */
@@ -60,7 +60,7 @@ public class Example06 {
         try {
 
             LOGGER.info("---------------------");
-            LOGGER.info("Example 6 started");
+            LOGGER.info("Example 6 started -> Propagation.REQUIRES_NEW");
 
             LOGGER.info("Saving the student ".concat(this.student.toString()));
             this.studentService.saveRequiredNew(this.student);
