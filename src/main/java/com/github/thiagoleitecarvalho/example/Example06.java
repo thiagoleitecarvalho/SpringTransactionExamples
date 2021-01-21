@@ -1,16 +1,19 @@
-package com.github.thiagoleitecarvalho.service;
+package com.github.thiagoleitecarvalho.example;
 
 import java.util.List;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
+import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.github.thiagoleitecarvalho.entity.Grade;
 import com.github.thiagoleitecarvalho.entity.Student;
 import com.github.thiagoleitecarvalho.exception.FakeErrorException;
+import com.github.thiagoleitecarvalho.service.GradeService;
+import com.github.thiagoleitecarvalho.service.SearchService;
+import com.github.thiagoleitecarvalho.service.StudentService;
 import com.github.thiagoleitecarvalho.util.EntityUtils;
 
 /**
@@ -18,7 +21,7 @@ import com.github.thiagoleitecarvalho.util.EntityUtils;
  * @author Thiago Leite e Carvalho
  * @see My linkedIn profile: https://www.linkedin.com/in/thiago-leite-e-carvalho-1b337b127/
  */
-@Service
+@Component
 public class Example06 {
 
     /**

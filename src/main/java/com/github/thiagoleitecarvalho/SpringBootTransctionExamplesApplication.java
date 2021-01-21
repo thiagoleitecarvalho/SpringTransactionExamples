@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.context.event.ApplicationReadyEvent;
 import org.springframework.context.event.EventListener;
 
-import com.github.thiagoleitecarvalho.service.ExamplesFacade;
+import com.github.thiagoleitecarvalho.facade.ExamplesFacade;
 
 /**
  * Class to run the examples.

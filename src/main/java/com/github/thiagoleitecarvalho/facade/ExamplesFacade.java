@@ -1,4 +1,4 @@
-package com.github.thiagoleitecarvalho.service;
+package com.github.thiagoleitecarvalho.facade;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -6,6 +6,17 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.CannotAcquireLockException;
 import org.springframework.stereotype.Service;
 
+import com.github.thiagoleitecarvalho.example.Example01;
+import com.github.thiagoleitecarvalho.example.Example02;
+import com.github.thiagoleitecarvalho.example.Example04;
+import com.github.thiagoleitecarvalho.example.Example05;
+import com.github.thiagoleitecarvalho.example.Example06;
+import com.github.thiagoleitecarvalho.example.Example07;
+import com.github.thiagoleitecarvalho.example.Example08;
+import com.github.thiagoleitecarvalho.example.Example09;
+import com.github.thiagoleitecarvalho.example.Example10;
+import com.github.thiagoleitecarvalho.example.Example11;
+import com.github.thiagoleitecarvalho.example.Example12;
 import com.github.thiagoleitecarvalho.exception.FakeErrorException;
 
 /**
