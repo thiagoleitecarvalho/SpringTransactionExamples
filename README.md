@@ -7,7 +7,3 @@ To see the results, run the application. The log will show the behavior of each 
 Article's Link: 
 
 My LinkedIn profile: https://www.linkedin.com/in/thiago-leite-e-carvalho-1b337b127/
-<<<<<<< HEAD
-=======
-
->>>>>>> branch 'main' of https://github.com/thiagoleitecarvalho/SpringTransactionExamples.git
