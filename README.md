@@ -6,6 +6,6 @@ To see the results, run the application. The log will show the behavior of each 
 
 **_Enjoy and share!_**
 
-Article's Link: https://www.linkedin.com/posts/thiago-leite-e-carvalho-1b337b127_hello-guys-today-i-am-sharing-with-you-my-activity-6758339607517003776-5D42
+Article's Link: https://www.linkedin.com/pulse/transactions-spring-approach-thiago-leite-e-carvalho/
 
 My LinkedIn profile: https://www.linkedin.com/in/thiago-leite-e-carvalho-1b337b127/
